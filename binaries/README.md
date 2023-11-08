@@ -1,8 +1,13 @@
 # Sample Binaries
 
 ## CPU
-* Quantized
-* Falcon
+
+* [Blip](./cpu/blip)
+* [Falcon](./cpu/falcon)
+* [Mistral](./cpu/mistral)
+* [Phi](./cpu/phi)
+* [Quantized](./cpu/quantized)
+* [Whisper](./cpu/whisper)
 
 ## CUDA
 * Falcon
