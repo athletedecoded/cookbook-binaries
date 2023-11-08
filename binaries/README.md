@@ -1,7 +1,15 @@
 # Sample Binaries
 
-## CPU
+```
+# Download
+wget -O <model-target> https://github.com/athletedecoded/cookbook-binaries/raw/main/binaries/<target>/<model>?download=
+# Ex.
+wget -O quantized-cpu https://github.com/athletedecoded/cookbook-binaries/raw/main/binaries/cpu/quantized?download=
+# Run
+./quantized-cpu --prompt "how long is a piece of string"
+```
 
+## CPU
 * [Blip](./cpu/blip)
 * [Falcon](./cpu/falcon)
 * [Mistral](./cpu/mistral)
@@ -10,12 +18,20 @@
 * [Whisper](./cpu/whisper)
 
 ## CUDA
-* Falcon
-* Phi
+* [Blip](./cuda/blip)
+* [Falcon](./cuda/falcon)
+* [Mistral](./cuda/mistral)
+* [Phi](./cuda/phi)
+* [Stable Diffusion](./cuda/stable-diffusion)
+* [Whisper](./cuda/whisper)
 
 ## cuDNN
-* Falcon
-* Phi
+* [Blip](./cudnn/blip)
+* [Falcon](./cudnn/falcon)
+* [Mistral](./cudnn/mistral)
+* [Phi](./cudnn/phi)
+* [Stable Diffusion](./cudnn/stable-diffusion)
+* [Whisper](./cudnn/whisper)
 
 <hr>
 
